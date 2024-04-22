@@ -1,38 +1,462 @@
-.App {
+/* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar */
+body{
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+p{
+  margin: 0;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #EAF6FA;
+}
+.digix{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  font-weight: 500;
+}
+.nav-link{
+  font-size: 17px;
+  font-weight: 600;
+  color: #3d3c3c;
+}
+.nav-link:hover{
+  transform: scale(1.02);
+  color: #1EAAF1;
+}
+.allbtns{
+  background-color: #1EAAF1 !important;
+  color: white !important;
+  border: 1px solid #1EAAF1 ;
+}
+.allbtns:hover{
+  color: #1EAAF1 !important;
+  background-color: white !important;
+  border: 1px solid  #1EAAF1 !important;
+}
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
+footer{
+  padding-top: 30px;
+  background-color: #212529;
+  color: #aab1b7 ;
+}
+.footerlogo{
+  width: 100px;
+}
+.ftouraza{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  position: relative;
+  top: 13px;
+  left: 3px;
+}
+.faddress{
+  margin-top: 20px;
+  max-width: 290px;
+}
+.fimg{
+  width: 95px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.fimg:hover{
+  transform: scale(1.02);
+}
+/* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home */
+.home1{
+  margin-top: 75px;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)), url('./home/main\ pic\ 5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.welcome{
+  font-family: 'Great Vibes', cursive;
+  color: white;
+  font-size: 55px;
+  line-height: 55px;
+}
+.maintxt{
+  color: white;
+  font-size: 60px;
+  padding:  0px 20%;
   text-align: center;
+  margin-bottom: 2%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainbtn:hover{
+  color: #1EAAF1!important;
+  background-color: transparent !important;
+  border: 1px solid  #1EAAF1!important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card1{
+  background-color: #8CC152;
+  padding:  3%  ;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.card2{
+  background-color: #1EAAF1;
+  padding:  3%  ;
+  color: white;
 }
+.card3{
+  background-color: #5D50C6;
+  padding:  3%  ;
+  color: white;
+}
+.card4{
+  background-color: #F1453D;
+  padding:  3%  ;
+  color: white;
+}
+.icons{
+  background-color: white;
+  width: 100px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 50%;
+}
+.cards{
+  padding: 5% 3%;
+}
+.om{
+  color: #1EAAF1;
+  font-weight: 600;
+}
+.omcon{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)), url(./home/classroom.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+}
+.home3{
+  height:80vh ;
+}
+/* About *//* About *//* About *//* About *//* About *//* About *//* About *//* About */
+.about1{
+  margin-top: 75px;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)), url('./About/mainimg3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.at{
+  color: #1EAAF1;
+  font-size: 30px;
+  font-weight: 700;
+}
+.atxt{
+  font-size: 17px;
+}
+.bigt{
+  color: #1EAAF1;
+  font-size: 38px;
+  margin-bottom: -5px;
+}
+.atimg{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  right: 20px;
+  border-top-left-radius:10px ;
+  border-bottom-left-radius:10px ;
+}
+.a4c{
+  border-top-right-radius:10px ;
+  border-bottom-right-radius:10px ;
+}
+.a4c:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.smallt{
+  font-size:13px ;
+}
+.ab3con{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)), url(./About/group2.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+}
+/* Courses *//* Courses *//* Courses *//* Courses *//* Courses *//* Courses *//* Courses */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.courses1{
+  margin-top: 75px;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)), url('./Courses/maincontact.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.card{
+  width: 100%;
+}
+.card:Hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.card-text{
+  color:#1EAAF1 ;
+  font-size: 23px;
+  font-weight: 700;
+}
+.card-img-top{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.imgdiv{
+  height: 30vh;
+}
+/* .Fee *//* .Fee *//* .Fee *//* .Fee *//* .Fee *//* .Fee *//* .Fee *//* .Fee *//* .Fee *//* .Fee *//* .Fee */
+.fee1{
+    margin-top: 75px;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)), url('./Fee/fee.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.th{
+  font-size: 20px;
+}
+.td{
+  font-size: 20px;
+}
+/* Contact *//* Contact *//* Contact *//* Contact *//* Contact *//* Contact *//* Contact *//* Contact */
+.contact1{
+  margin-top: 75px;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)), url('./contact/library.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* Addmission *//* Addmission *//* Addmission *//* Addmission *//* Addmission *//* Addmission *//* Addmission */
+.addmission1{
+  margin-top: 75px;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)), url('./admissionform/add.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.bimg{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: 20px;
+  border-top-right-radius:10px ;
+  border-bottom-right-radius:10px ;
+}
+.b4c{
+  border-top-left-radius:10px ;
+  border-bottom-left-radius:10px ;
+}
+.b4c:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.labels{
+  color: #1EAAF1;
+  font-size: 24px;
+  font-weight: 00;
+}
+.inputs{
+  padding: 8px;
+  border-radius: 7px;
+  border: 0;
+  background-color: #DEF2FE;
+}
+.bbtndiv{
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bbtn{
+  background-color: #1EAAF1;
+  padding: 10px 45px;
+  color: white;
+  border: 0;
+}
+.bbtn:hover{
+  background-color: white;
+  color: #1EAAF1;
+  border: 1px solid #1EAAF1;
+}
+/* Extra large devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+  .btnrelative{
+    position: relative;
+    bottom: 15px;
   }
-  to {
-    transform: rotate(360deg);
+  .form{
+    margin-top: 50px;
+  }
+}
+.inputss{
+   margin: 40px 0px;
+}
+/* Large devices (desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .labels{
+    font-size: 20px;
+  }
+  .btnrelative{
+    position: relative;
+    bottom: 15px;
+  }
+  .form{
+    margin-top: 50px;
+  }
+}
+  
+/* Medium devices (desktops) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .fimg{
+    width: 80px;
+  }
+  .footerlogo{
+    width: 70px;
+    height: 50px;
+  }
+  .ftouraza{
+    font-size: 35px;
+  }
+  .flg{
+    font-size: 20px;
+  }
+  .fsm{
+    font-size:16px ;
+  } 
+  .maintxt{
+    font-size: 35px;
+    padding:  0px 20%;
+  }
+  .welcome{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .cards{
+    padding: 7% 7%;
+  }
+  .tu{
+    margin-top: 30px;
+  }
+  .aboutdata{
+    font-size: 15px;
+  }
+  .card-text{
+    font-size: 20px;
+  }
+  .th{
+    font-size: 17px;
+  }
+  .td{
+    font-size: 13px;
+  }
+  .labels{
+    font-size: 20px;
+  }
+}
+/* Small devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .footerlogo{
+    width: 70px;
+    height: 50px;
+  }
+  .ftouraza{
+    font-size: 35px;
+  } 
+  .flg{
+    font-size: 15px;
+  }
+  .fsm{
+    font-size:13px ;
+  } 
+  .copyright{
+    font-size: 12px;
+  }
+  .maintxt{
+    font-size: 35px;
+    padding:  0px 20%;
+  }
+  .welcome{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .cards{
+    padding: 7% 10%;
+  }
+  .omcon{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)), url(./home/classroom2.jpeg);
+  }
+  .th{
+    font-size: 8px;
+  }
+  .td{
+    font-size:7px;
+  }
+  .labels{
+    font-size: 20px;
+  }
+}
+    
+/* Extra small devices (phones) */
+@media only screen and (max-width: 575.98px) {
+  .footerlogo{
+    width: 60px;
+    height: 60px;
+  }
+  .ftouraza{
+    font-size: 25px;
+  }
+  .flg{
+    font-size: 15px;
+  }
+  .fsm{
+    font-size:13px ;
+  } 
+  .fc{
+    margin-top: 30px;
+  }   
+  .copyright{
+    font-size: 10px;
+  }
+  .maintxt{
+    font-size: 22px;
+    padding:  0px 15%;
+  }
+  .welcome{
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .cards{
+    padding: 15% 10%;
+  }
+  .omcon{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.727)), url(./home/classroom2.jpeg);
+  }
+  .aboutdata{
+    font-size: 15px;
+    padding-left:10px ;
+    padding-right:10px ;
+  }
+  .th{
+    font-size: 8px;
+  }
+  .td{
+    font-size:7px;
+  }
+  .labels{
+    font-size: 20px;
   }
 }
